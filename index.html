@@ -13,7 +13,7 @@
 	<meta charset="utf-8" />
 
 	<!-- The title tag is what search engines and browsers use for your page title. -->
-	<title>Web Page Template</title>
+	<title>Red River Gorge exploring</title>
 
 	<!-- Should the browser window, viewport, change scale on small or large screens? -->
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
@@ -138,7 +138,7 @@
 	<section>
 
 		<!--The title shown on the page as a Heading 1 element-->
-		<h1>Hello, Y'All!</h1>
+		<h1>An Interactive Map of the Red River Gorge!</h1>
 
 		<!-- 
 			The div tag is called 'map' and creates a map here by JavaScript when the page loads in a browser. 
@@ -146,15 +146,16 @@
 		<div id='map'></div>
 
 		<!-- Your second heading -->
-		<h2>WELCOME</h2>
+		<h2>What is the Red River Gorge?</h2>
 
 		<!-- 
 			Info about the mapping project as a paragraph element, 
 			i.e., everything inside the <p></p> tags. 
 		-->
 		<p>
-			Add additional information about this place and inspire visitors to visit and desire to understand its geography.
-			Did you know that some of my favorite places to visit in the city are ice cream shops!
+				"Red River Gorge, in Daniel Boone National Forest in east-central Kentucky, was formed as the Red River cut through sandstone creating steep-sided narrow valleys, a magnet for rock climbers... Holes worn in softer, lower sandstone layers have produced more than 100 natural arches in the gorge -- unique formations in the eastern United States" (https://www.cbsnews.com/).
+				The Red River Gorge is world renowned for its beauty. Hikers, scientists, and other enthusiasts come from all over the world to visit the Gorge. Natural Bridge is one of the most amazing natural features in the eastern U.S!
+				"The first people to come to the Red River Gorge arrived about 13,000 years ago when glaciers still covered much of the land to the north. Small bands of ice-age hunters, now called Paleo-Indians, followed herds of mastodons and woolly mammoths" (https://www.fs.usda.gov/).
 		</p>
 		<!-- 
 			In this paragraph, let's add a photograph. 
@@ -163,31 +164,31 @@
 		-->
 		<p>
 			Use images:
-			<img src="https://uky-gis.github.io/maps/graphics/sun.jpg">
+			<img src="https://cabinsofbirchhollow.com/wp-content/uploads/2014/08/Natural-Bridge-in-Autumn_x1024.jpg">
 		</p>
 		<!-- 
 			Let's a link to an external resource by adding a URL to the href property. 
 		-->
 		<p>
 			and
-			<a href="https://uky-gis.github.io">links</a> to other resources to inform your visitor.
+			<a href="https://www.fs.usda.gov/recarea/dbnf/recarea/?recid=39458">links</a> More information about the Red River Gorge!
 		</p>
 
 		<!-- Horizontal rule element doesn't need a closing tag -->
 		<hr>
 
 		<!-- More info about you -->
-		<h3>More about Me!</h3>
+		<h3>Get in touch!</h3>
 
 		<!-- Unordered list element inside these tags <ul></ul>-->
 		<ul>
 			<!-- A single list item <li></li> -->
 			<li>See my projects on GitHub:
-				<a href="https://github.com/UKy-GIS">UKy GIS and Mapping</a> (please replace with YOUR GitHub account)</li>
-			<li>Follow me on twitter, instagram, etc.:
-				<a href="https://twitter.com/boydshearer">@boydshearer</a> (please replace!)</li>
-			<li>Visit my
-				<a href='#'>mapping portfolio</a>. (got anything else to show us?)</li>
+			<a href="https://github.com/jseb223">Link to my Github page!</a> </li>
+			<li>Follow me on Twitter:
+				<a href="https://twitter.com/johnnyeblin">Link to me Twitter. Follow me!, I follow back</a> </li>
+			<li>Visit my GEO 409 class Github page!
+				<a href='https://github.com/UKy-GIS'>Link to our classwork!</a>. </li>
 		</ul>
 	</section>
 
@@ -213,15 +214,15 @@
 		// ------------------------------------------------------ 
 		// Define a variable that centers the initial view and zoom level. 
 		var options = {
-			center: [38.0406, -84.5037], // CHANGE. lat, long values of Gladie Visitor center
-			zoom: 12 // CHANGE. Integer value. Higher value greater the scale.
+			center: [37.83329468, -83.60774657], // CHANGE. lat, long values of Gladie Visitor center
+			zoom: 10 // CHANGE. Integer value. Higher value greater the scale.
 		}
 
 		// ------------------------------------------------------ 
 		// Change the message display on your map
 		// ------------------------------------------------------ 
 		// Write a custom message for the map marker's popup message
-		var message = 'Lexington is awesome!'; // CHANGE
+		var message = 'The Red River Gorge has plenty to explore!'; // CHANGE
 
 		// ------------------------------------------------------ 
 		// ------------------------------------------------------ 
