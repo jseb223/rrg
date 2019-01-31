@@ -1,5 +1,6 @@
 <!-- Heading 1 -->
 # Welcome to the Red River Gorge, KY Geologic Area!
+<!-- Nice work! 😀 -->
 
 <!-- First paragraph -->
 "The first people to come to the Red River Gorge arrived about 13,000 years ago when glaciers still covered much of the land to the north. Small bands of ice-age hunters, now called Paleo-Indians, followed herds of mastodons and woolly mammoths". - https://www.fs.usda.gov/
