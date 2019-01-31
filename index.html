@@ -47,7 +47,10 @@
 		}
 
 		section {
-			width: 890px;
+			/* Below is a fixed width element. */
+			/* width: 890px; */
+			/* Let's make a relative width element */
+			width:80%;
 			margin: 20px auto;
 		}
 
@@ -55,7 +58,7 @@
 			font-size: 4em;
 			font-family: 'Dancing Script', cursive;
 			color: #333333;
-			font-size: 2.0em;
+			font-size: 2.5em;
 			font-weight: 300;
 			line-height: 1.05em;
 		}
@@ -156,11 +159,11 @@
 			i.e., everything inside the <p></p> tags. 
 		-->
 		<p>
-				"Red River Gorge, in Daniel Boone National Forest in east-central Kentucky, was formed as the Red River cut through sandstone creating steep-sided narrow valleys, a magnet for rock climbers... Holes worn in softer, lower sandstone layers have produced more than 100 natural arches in the gorge -- unique formations in the eastern United States" (https://www.cbsnews.com/).
+				"Red River Gorge, in Daniel Boone National Forest in east-central Kentucky, was formed as the Red River cut through sandstone creating steep-sided narrow valleys, a magnet for rock climbers... Holes worn in softer, lower sandstone layers have produced more than 100 natural arches in the gorge -- unique formations in the eastern United States" (<a href="https://www.cbsnews.com/">https://www.cbsnews.com/</a>).
 				The Red River Gorge is world renowned for its beauty. 
 			</p>
 			<p> Hikers, scientists, and other enthusiasts come from all over the world to visit the Gorge. Natural Bridge is one of the most amazing natural features in the eastern U.S!
-				"The first people to come to the Red River Gorge arrived about 13,000 years ago when glaciers still covered much of the land to the north. Small bands of ice-age hunters, now called Paleo-Indians, followed herds of mastodons and woolly mammoths" (https://www.fs.usda.gov/).
+				"The first people to come to the Red River Gorge arrived about 13,000 years ago when glaciers still covered much of the land to the north. Small bands of ice-age hunters, now called Paleo-Indians, followed herds of mastodons and woolly mammoths" (<a href="https://www.fs.usda.gov">https://www.fs.usda.gov/</a>).
 		</p>
 		<!-- 
 			In this paragraph, let's add a photograph. 
@@ -169,7 +172,8 @@
 		-->
 		<p>
 			The Gorge is the most beautiful in the Fall!
-			<img src="https://cabinsofbirchhollow.com/wp-content/uploads/2014/08/Natural-Bridge-in-Autumn_x1024.jpg">
+			<img src="https://cabinsofbirchhollow.com/wp-content/uploads/2014/08/Natural-Bridge-in-Autumn_x1024.jpg" class="max-image-width">
+			<br>Source:
 		</p>
 		<!-- 
 			Let's a link to an external resource by adding a URL to the href property. 
