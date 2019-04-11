@@ -17,7 +17,7 @@ I estimated that the width of the arch was between 25 and 30 feet. The second sm
 A view for both arches
 
 ![As you look over the edge, you can see the trail leading up to Double Arch](https://github.com/jseb223/rrg/blob/master/basemap/Double_Arch_Trail2.jpg)
-[As you look over the edge, you can see the trail leading up to Double Arch
+As you look over the edge, you can see the trail leading up to Double Arch
 
 ![The underbelly of Double Arch](https://github.com/jseb223/rrg/blob/master/basemap/Double_Arch_Underbelly_Scale.jpg)
 The underbelly of Double Arch
