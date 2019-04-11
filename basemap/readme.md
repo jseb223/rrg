@@ -4,6 +4,8 @@ Red River Gorge Geologic Area <br/>
 UKY - GEO 409 <br/>
 I selected Double Arch for my mapping project. The trek to Double Arch is a moderately difficult 2.5 mile hike. Once I parked at the end of Tunnel Ridge Road, I embarked on the hike. The beginning is along a gravel road but you must follow a narrow trail down into a valley to follow the trail up to Double Arch. <br/>
 
+I was able to access the rrg.pdf via Avenza Maps while I was in the field but I was not able to get a good estimate for the size of Double Arch. It was difficult to measure with Avenza because the scale of the pdf was to small and my finders were getting in the way. Although, the GPS locator on my phone did correctly place on the red pin for Double Arch that I created in ArcGIS Pro. The locator was very accurate but to accurately measure the width of the arch, the scale of the pdf would essentially need to be zoomed in on just my landform. <br/>
+
 The arch is at one of the higher points in the Red River Gorge and presented an amazing view.
 ![View from the top of Double Arch](https://github.com/jseb223/rrg/blob/master/basemap/Double_Arch_View3.jpg)
 View from the top of Double Arch <br/>
