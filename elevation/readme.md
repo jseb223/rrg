@@ -3,4 +3,4 @@
 
 ![Cliffs over 40 feet around Double Arch in the Red River Gorge](Double_Arch_Layout_Cliffs_40ft_72dpi.jpg)
 
-[![Double Arch flyover in the Red River Gorge]](https://www.youtube.com/watch?v=w7gxTa23bew&feature=youtu.be)
+![Double Arch flyover in the Red River Gorge](https://www.youtube.com/watch?v=w7gxTa23bew&feature=youtu.be)
