@@ -5,6 +5,7 @@
 [Lab 8](https://jseb223.github.io/rrg/lab-09(Lab8Webpage)/) <br />
 [Lab 7 Locator Map](https://github.com/jseb223/rrg/blob/master/Double_Arch_Layout_Cliffs_40ft_72dpi.jpg) <br />
 
+[Red River Gorge Hillshade and Cliffs Over 30 ft.](https://github.com/jseb223/rrg/blob/master/Layout.jpg) <br />
 [Lab 5 Pictures](https://github.com/jseb223/rrg/tree/master/Field_Trip_Pictures(Lab5)) <br />
 [![Double Arch Animation](http://img.youtube.com/vi/w7gxTa23bew/0.jpg)](https://www.youtube.com/watch?v=w7gxTa23bew) <br />
 I selected Double Arch for my mapping project. The trek to Double Arch is a moderately difficult 2.5 mile hike. Once I parked at the end of Tunnel Ridge Road, I embarked on the hike. The beginning of the trail is along a gravel road but you must follow a narrow trail down into a valley to reach Double Arch. I was able to access the rrg.pdf via Avenza Maps while I was in the field but I was not able to get a good estimate for the size of Double Arch. <br />
