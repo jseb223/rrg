@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Welcome to HTML! Hack this page to get your desired results!-->
+
+<!-- 
+	The <head></head> tags contain metadata about your page 
+	and links to external resources like fonts and styles.
+-->
+
+<head>
+	<!-- What character set are we using? -->
+	<meta charset="utf-8" />
+
+	<!-- The title tag is what search engines and browsers use for your page title. -->
+	<title>Web Page Template</title>
+
+	<!-- Should the browser window, viewport, change scale on small or large screens? -->
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<!-- More detailed info about page for search engines-->
+	<meta name="description" content="A basic welcome page for a mapping  project in the Red River Gorge.">
+	<meta name="keywords" content="Red River Gorge, GEO409, University of Kentucky">
+	<meta name="author" content="TastyFreeze">
+
+	<!-- Let's get some styles and fonts! -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css" />
+	<link href="https://fonts.googleapis.com/css?family=Signika+Negative:300,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+	<!-- 
+		The style tag defines the CSS (Cascading Style Sheet) rules 
+		used to define the appearance HTML page elements in the browser. 
+		Search for CSS rules and explore modifying the look of your page. It's fun!
+	-->
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #f5f5f5;
+			font-family: 'Signika Negative', sans-serif;
+			color: #979797;
+			font-size: 1.0em;
+			font-weight: 300;
+			line-height: 1.05em;
+		}
+
+		section {
+			width: 890px;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-size: 4em;
+			font-family: 'Dancing Script', cursive;
+			color: #333333;
+		}
+
+		h2 {
+			font-size: 2em;
+			font-family: 'Signika Negative', sans-serif;
+			letter-spacing: .05em;
+			font-weight: 300;
+			color: #555555;
+			padding: 20px 0 0 0;
+		}
+
+		h3 {
+			font-size: 1.5em;
+			font-family: 'Dancing Script', cursive;
+			letter-spacing: .04em;
+			color: #888888;
+		}
+
+
+		p {
+			font-size: 1.1em;
+			line-height: 1.4em;
+		}
+
+		a {
+			color: #ff4323;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+			color: black;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+		}
+
+		.max-image-width {
+			width: 100%;
+		}
+
+		.linkbox {
+			margin: 3px 0 20px 0;
+			display: block;
+			font-weight: 300;
+		}
+
+		hr {
+			border: 0px;
+			border-bottom: 1px solid #bbbbbb;
+			padding-top: 20px;
+		}
+
+		#map {
+			width: 100%;
+			height: 540px;
+			margin: 10px auto;
+			border: 2px solid #d3d3d3;
+		}
+	</style>
+</head>
+
+<!-- The body element contains the page structure and content. -->
+
+<body>
+
+	<!-- 
+		A second tag is an example of semantic HTML element 
+		where the tag name hints about the element's content. 
+	-->
+	<section>
+
+		<!--The title shown on the page as a Heading 1 element-->
+		<h1>Hello, Y'All!</h1>
+
+		<!-- 
+			The div tag is called 'map' and creates a map here by JavaScript when the page loads in a browser. 
+		-->
+		<div id='map'></div>
+
+		<!-- Your second heading -->
+		<h2>WELCOME</h2>
+
+		<!-- 
+			Info about the mapping project as a paragraph element, 
+			i.e., everything inside the <p></p> tags. 
+		-->
+		<p>
+			Add additional information about this place and inspire visitors to visit and desire to understand its geography.
+			Did you know that some of my favorite places to visit in the city are ice cream shops!
+		</p>
+		<!-- 
+			In this paragraph, let's add a photograph. 
+			Put the URL to the image inside the src property's quotes. 
+			Let's use a JPEG file.
+		-->
+		<p>
+			Use images:
+			<img src="https://uky-gis.github.io/maps/graphics/sun.jpg">
+		</p>
+		<!-- 
+			Let's a link to an external resource by adding a URL to the href property. 
+		-->
+		<p>
+			and
+			<a href="https://uky-gis.github.io">links</a> to other resources to inform your visitor.
+		</p>
+
+		<!-- Horizontal rule element doesn't need a closing tag -->
+		<hr>
+
+		<!-- More info about you -->
+		<h3>More about Me!</h3>
+
+		<!-- Unordered list element inside these tags <ul></ul>-->
+		<ul>
+			<!-- A single list item <li></li> -->
+			<li>See my projects on GitHub:
+				<a href="https://github.com/UKy-GIS">UKy GIS and Mapping</a> (please replace with YOUR GitHub account)</li>
+			<li>Follow me on twitter, instagram, etc.:
+				<a href="https://twitter.com/boydshearer">@boydshearer</a> (please replace!)</li>
+			<li>Visit my
+				<a href='#'>mapping portfolio</a>. (got anything else to show us?)</li>
+		</ul>
+	</section>
+
+	<!-- 
+		The bottom of the page is where we introduce JavaScript. 
+		JavaScript controls the interactivity of a web page.
+	-->
+
+	<!-- 
+		Load the Leaflet mapping library that provides interactive map functionality 
+	-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
+
+	<!-- 
+		Javascript code defined inside the <script></script> tag
+		provides instructions for the Leaflet library about handling user actions. 
+	-->
+	<script>
+		// FYI: The double forward slash makes a comment in the script tag
+
+		// ------------------------------------------------------ 
+		// Change the center and zoom properties
+		// ------------------------------------------------------ 
+		// Define a variable that centers the initial view and zoom level. 
+		var options = {
+			center: [38.0406, -84.5037], // CHANGE. lat, long values of Gladie Visitor center
+			zoom: 12 // CHANGE. Integer value. Higher value greater the scale.
+		}
+
+		// ------------------------------------------------------ 
+		// Change the message display on your map
+		// ------------------------------------------------------ 
+		// Write a custom message for the map marker's popup message
+		var message = 'Lexington is awesome!'; // CHANGE
+
+		// ------------------------------------------------------ 
+		// ------------------------------------------------------ 
+		// ------------------------------------------------------ 
+		// No changes required below!
+		// ------------------------------------------------------ 
+		// But, if you want to explore, below are parameters you can learn to manipulate in GEO 405 and GEO 672.
+
+		// Create a Leaflet map in our division container with id of 'map'
+		var map = L.map('map', options);
+
+		// request some basemap tiles and add to the map
+		var tiles = L.tileLayer(
+			'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+				attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+			}).addTo(map);
+
+		// add a marker to the center of the map and open the tooltip
+		L.marker(map.getCenter())
+			.bindTooltip(message)
+			.addTo(map)
+			.openTooltip();
+	</script>
+
+</body>
+
+</html>
